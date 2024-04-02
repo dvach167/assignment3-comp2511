@@ -1,12 +1,12 @@
 .background {
-    background-image: url("../img/background.jpg");
+    background-color: #B4BED9;
     background-size: cover;
     background-repeat: no-repeat;
     /*Image by Lumina Obscura from Pixabay*/
 }
 
 #main {
-    background-color: #E0D1BC;
+    background-color: #5B6E8F;
 }
 
 .wrapper {
@@ -22,7 +22,7 @@
 #navbar {
     grid-column: 1/4;
     grid-row: 1;
-    background-color: #E0D1BC !important;
+    background-color: #C3C5C9 !important;
 }
 
 .skip {
@@ -42,16 +42,14 @@
 
 footer {
     padding: 1.5% 0;
-    color: #035B6F;
-    background-color: #FFDCA5;
+    background-color: #C3C5C9;
     text-align: center;
     box-shadow:inset 0 2px 10px grey;
     max-height: 90px;
 }
 
 .sep {
-    color:#035B6F;
-    background-color: #FFDCA5;
+    background-color: #C3C5C9;
     padding: 20px 0;
     box-shadow:inset 0 2px 10px grey;
 
@@ -69,7 +67,7 @@ footer {
     grid-column: 1/2;
     grid-row: 1;
     border-radius: 15px;
-    background: #C9B2A9;
+    background: #C3C5C9;
     padding: 10px;
     margin: auto;
     width: 400px; 
@@ -81,7 +79,7 @@ footer {
     grid-column: 2/3;
     grid-row: 1;
     border-radius: 15px;
-    background: #C9B2A9;
+    background: #C3C5C9;
     padding: 10px;
     margin: auto;
     width: 400px;
@@ -104,7 +102,7 @@ footer {
 #hobbyPara {
     grid-row: 1;
     border-radius: 15px;
-    background: #C9B2A9;
+    background: #C3C5C9;
     padding: 10px;
     margin: auto;
     width: 400px; 
@@ -124,15 +122,20 @@ footer {
     grid-row: 1;
 }
 
+.list-group-item{
+    background-color: #C3C5C9 !important;
+}
+
 #domCard {
     margin: auto;
     grid-column: 1/2;
     grid-row: 1;
+    background-color: #C3C5C9 !important;
 }
 
 #historyList {
     border-radius: 15px;
-    background: #C9B2A9;
+    background: #C3C5C9;
     padding: 10px;
     margin: auto;
     width: 400px; 

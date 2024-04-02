@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="background">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +8,88 @@
     <link rel="stylesheet" href="style\style.css">
     <title>Introduction Page</title>
 </head>
-<body>
+<body class="wrapper">
     <a href="#mainTopic" class="skip">Skip to Main Content</a>
-    <header class="container-fluid">
-        <div class="row">
-            <div>Dominik Vachon</div>
-            <nav>
-                <a href="index.html" id="currentPage">Home</a>
-                <a href="pages\resume.html">Resume</a>
-            </nav>  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Dominik Vachon's CV</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Introduction</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages\resume.html">Resume</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
             </div>
+        </nav>
     </header>
 
-    <article class="container-fluid">
+    <article class="container-fluid" id="main">
+        <div class="row text-center">
+            <div class="sep">
+                Introducing Dominik
+            </div>
+        </div>
+        <div class="row" id="summary">
+            <div class="col" id="summaryPara1">
+                Domink Vachon is a dedicated Computer Information Systems student at Mount Royal University with a passion for cybersecurity. 
+                From a young age, their fascination with technology led them to build their first computer at the age of 12, sparking a lifelong interest in computer hardware and networking.
+                Alongside their academic pursuits, they have gained diverse work experience, ranging from furnishing for Stay Unique, an Airbnb operator, to General Labourer at Rohmec Industries, 
+                a CNC machine shop. They also run a successful self-employed venture as a dog trainer.
+            </div>
+            <div class="col" id="summaryPara2">
+                Outside the digital realm, Dominik finds solace in nature, valuing it as an escape from the fast-paced world of technology. 
+                They are an ardent advocate for the right-to-repair movement, believing in the importance of empowering individuals to repair and maintain their own technology. 
+                With a blend of technical expertise, hands-on experience, and a commitment to advocacy, Dominik is poised to make significant contributions to the field of cybersecurity and technology.
+            </div>
+            
+        </div>
+            <div class="row" id="video">
+                <video src="">
+                    Enter Summary Video
+                </video>
+            </div>
+        <div class="row text-center">
+            <div class="col sep">
+                Hobbies
+            </div>
+        </div>
 
+        <div id="hobbies">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img\garrys.png" class="d-block w-100" alt="a picture of my steam profile garrys mod game">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/helldivers.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/arma3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/finals.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div id="hobbyPara">
+                I'm all about diving into the vast worlds of video games. Most of my free time is spent exploring MMOs, and my top pick has to be Guild Wars 2 - there's just something special about its immersive universe. But I'm not limited to just one genre; I also enjoy the rush of shooters like Helldivers 2, Rainbow Six Siege, and The Finals. When I'm not gaming, you'll find me outdoors, either with my loyal dog or surrounded by friends and family. Whether I'm wielding a controller or soaking up the sun, I believe in striking the perfect balance between digital adventures and real-world connections.
+            </div>
+        </div>
     </article>
     <footer>
         <p>
             Dominik Vachon's Resume Website
         </p>
-        <p class="alignLeft">
+        <p class="text-left">
             &copy; Dominik Vachon, 2024
         </p>
     </footer>
